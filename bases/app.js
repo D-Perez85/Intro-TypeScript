@@ -32,4 +32,5 @@
     const poder = '100';
     const largoPoder = poder.length;
     console.log(largoPoder);
+    console.log('Desde aca');
 })();
