@@ -20,4 +20,3 @@
     d = save;
     console.log(d());
 })();
-//# sourceMappingURL=function-type.js.map

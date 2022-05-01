@@ -28,4 +28,3 @@
     console.log(largoPoder);
     console.log('Desde aca');
 })();
-//# sourceMappingURL=app.js.map

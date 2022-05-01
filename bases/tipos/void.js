@@ -11,4 +11,3 @@
     const b = callHero2();
     console.log(b);
 })();
-//# sourceMappingURL=void.js.map

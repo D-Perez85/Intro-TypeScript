@@ -6,4 +6,3 @@
     const superman = fullName('Juan', 'Pablo', 'Perez');
     console.log({ superman });
 })();
-//# sourceMappingURL=args-rests.js.map

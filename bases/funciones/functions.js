@@ -10,4 +10,3 @@
     console.log(typeof return2);
     const heroName = returName();
 })();
-//# sourceMappingURL=functions.js.map

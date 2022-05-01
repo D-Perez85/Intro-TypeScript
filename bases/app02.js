@@ -36,4 +36,3 @@ const tester = (a, b, c, d) => {
     console.log(`${d}`);
 };
 let a = tester(6, 'Aldo', ['Uno', 'Dos'], false);
-//# sourceMappingURL=app02.js.map
