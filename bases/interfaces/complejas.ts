@@ -1,21 +1,34 @@
-"use strict";
 (() => {
-    let flash = {
-        name: 'Barry Allen',
-        age: 24,
-        powers: [1, 2]
-    };
-    let superman = {
-        name: 'Clark Kent',
-        age: 60,
-        powers: [1],
-        getName() {
-            return this.name;
-        }
-    };
-})();
-(() => {
-    const client = {
+
+    interface Client {
+        name: string;
+        age?: number;
+        address: Address;
+        education?: Education; 
+        accountData?: Account
+        getFullAddress( id: string ):string;
+    }
+
+    interface Address {
+        id: number;
+        zip: string;
+        city: string;
+    }
+
+    interface Education {
+        first: string, 
+        secondary: string,
+        universitary: string
+    }
+
+    interface Account {
+        id: number,
+        bank: string,
+        location: string,
+        office: number
+    }
+
+    const client: Client = {
         name: 'Damian',
         age: 25,
         address: {
@@ -28,11 +41,12 @@
             secondary: 'complete',
             universitary: 'on course'
         },
-        getFullAddress(id) {
+        getFullAddress( id: string ) {
             return this.address.city;
         }
-    };
-    const client2 = {
+    }
+
+    const client2: Client = {
         name: 'Melissa',
         age: 30,
         address: {
@@ -46,11 +60,12 @@
             location: 'Bs As',
             office: 217
         },
-        getFullAddress(id) {
+        getFullAddress( id: string ) {
             return this.address.city;
         }
-    };
+    }
+
     console.log(client);
     console.log(client2);
-})();
-//# sourceMappingURL=main.js.map
+
+})()
