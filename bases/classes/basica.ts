@@ -16,8 +16,8 @@
         }
     }
     const antman : Avenger = new Avenger('Aquaman', 'Azul', 'Jhon Doe'); 
-    console.log(antman);
-    console.log(antman.bio());
-    console.log( Avenger.getAvgAge() )
+    // console.log(antman);
+    // console.log(antman.bio());
+    // console.log( Avenger.getAvgAge() )
 })()
 
