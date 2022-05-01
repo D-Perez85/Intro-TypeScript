@@ -13,3 +13,5 @@
 - removeComments: true,  (Disable emitting comments) on console
 
 - outFile": "./main.js => integra todo dentro de un main
+
+- "include": [ "ES6" ]  (Con esto pongo el modulo que quiero o necesito renderizar y no llamo al resto)
