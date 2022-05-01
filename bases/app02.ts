@@ -1,6 +1,8 @@
+(()=>{
+
 //Basic functions
 function sumar(a: number, b: number): number {
-    return a+b
+return a+b
 }; 
 console.log(`El resultado de la 1er funcion es: ${sumar(5,9)}`);
 
@@ -56,5 +58,6 @@ const tester = (a: number, b?: string, c?: string[], d?: boolean) =>{
 }
 let a = tester(6, 'Aldo', ['Uno', 'Dos'], false); 
 
+})()
 
 

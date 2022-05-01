@@ -11,3 +11,5 @@
 - Never: fn que termina con un error.
 
 - removeComments: true,  (Disable emitting comments) on console
+
+- outFile": "./main.js => integra todo dentro de un main
