@@ -47,7 +47,7 @@
         }
     }
     const wolverine = new Xmen("Wolverine", "Logan", true);
-    wolverine.fullName = "Fer";
+    wolverine.fullName = "Test";
     console.log(wolverine.fullName);
     wolverine.getFullnameDesdeXmen();
 })();
