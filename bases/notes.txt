@@ -1,0 +1,13 @@
+- ctrl + sfift + c
+
+- convertir archivos a js: tsc + nombre de file
+
+- tsc --init (config de JSON para config de TS)
+
+- tsc para transpilar todos los archivos
+
+- tsc --w 
+
+- Never: fn que termina con un error.
+
+- removeComments: true,  (Disable emitting comments) on console

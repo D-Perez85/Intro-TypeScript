@@ -1,5 +1,4 @@
 "use strict";
-// Objetos
 const batimovil = {
     carroceria: "Negra",
     modelo: "6x6",
@@ -15,7 +14,6 @@ const bumblebee = {
         console.log('Disparando');
     }
 };
-//Villanos
 let villanos = [{
         nombre: 'Lex Luthor',
         edad: 54,
@@ -39,7 +37,8 @@ const apocalipsis = {
     lider: true,
     miembros: ['Magneto', 'Tormenta', 'Angel']
 };
-//Mutante debe poder ser cualquiera de los dos mutantes
+console.log(apocalipsis);
 let mystique;
 mystique = charles;
 mystique = apocalipsis;
+//# sourceMappingURL=app03.js.map

@@ -6,3 +6,4 @@
     const texto = ['A', 'B', 'C'];
     numbers.forEach(v => console.log(v));
 })();
+//# sourceMappingURL=arrays.js.map

@@ -4,11 +4,10 @@
     let exists;
     let power;
     avenger = 'Dr Strange';
-    // console.log(avenger.charAt(0));
-    console.log(avenger.charAt(0)); //CASTEO
+    console.log(avenger.charAt(0));
     avenger = 156;
-    // console.log(avenger.toFixed(2));
-    console.log(avenger.toFixed(2)); //CASTEO
+    console.log(avenger.toFixed(2));
     console.log(exists);
     console.log(power);
 })();
+//# sourceMappingURL=any.js.map

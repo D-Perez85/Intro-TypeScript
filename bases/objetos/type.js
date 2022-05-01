@@ -15,3 +15,4 @@
     };
     console.log({ superman });
 })();
+//# sourceMappingURL=type.js.map

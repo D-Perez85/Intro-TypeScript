@@ -70,6 +70,7 @@ const apocalipsis: Apocalipsis = {
 }; 
 
 
+console.log(apocalipsis);
 
 //Mutante debe poder ser cualquiera de los dos mutantes
 

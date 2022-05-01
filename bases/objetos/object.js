@@ -11,3 +11,4 @@
         powers: ['Super fuerza']
     };
 })();
+//# sourceMappingURL=object.js.map
