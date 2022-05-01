@@ -21,7 +21,7 @@ interface Auto {
       console.log("...... gogogo!!!");
     }
   }
-
+  batimovil.acelerar();  
 
 //----------------------------------------------------------------------------------------------------------
 // Cree una interfaz con que permita utilizar el siguiente objeto utilizando propiedades opcionales

@@ -1,37 +1,13 @@
 "use strict";
-(() => {
-    const conducirBatimovil = (auto) => {
-        auto.encender = true;
-        auto.velocidadMaxima = 100;
-        auto.acelerar();
+var Validations;
+(function (Validations) {
+    Validations.validateText = (texto) => {
+        return (texto.length > 3) ? true : false;
     };
-    const batimovil = {
-        encender: false,
-        velocidadMaxima: 0,
-        acelerar() {
-            console.log("...... gogogo!!!");
-        }
+    Validations.validateDate = (date) => {
+        return (isNaN(date.valueOf())) ? false : true;
     };
-    const guason = {
-        reir: true,
-        comer: true,
-        llorar: false
-    };
-    const reir = (guason) => {
-        if (guason.reir) {
-            console.log("JAJAJAJA");
-        }
-    };
-    const ciudadGotica = (ciudadanos) => {
-        return ciudadanos.length;
-    };
-    class Persona {
-        constructor(name, age, sexo, estadoCivil) { }
-        imprimirBio() {
-            console.log(this.name + ' ' + this.sexo);
-        }
-    }
-    let a = new Persona('Juan', 22, 'alot', 'single');
-    console.log(a);
-})();
+})(Validations || (Validations = {}));
+console.log(Validations.validateText('abcd'));
+console.log(Validations.validateDate(20));
 //# sourceMappingURL=main.js.map
