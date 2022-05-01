@@ -1,21 +1,14 @@
 (()=>{
 
     class Avenger{
-        private name: string;
-        public team: string; 
-        public realName?: string; 
-        static avgAge: number = 35; 
-
-        constructor(name: string, team: string, realName: string = "Default"){
-            this.name = name, 
-            this.team = team,
-            this.realName = realName
-        }
+        //FORMA CORTA DE PASAR PARAMETROS
+        constructor( 
+            private name: string, 
+            private team: string, 
+            public realName?: string
+        ){}
     }
-
-    console.log(Avenger.avgAge);
-
-    const antman : Avenger = new Avenger('Pedro', 'Azul'); 
+    const antman : Avenger = new Avenger('Aquaman', 'Azul', 'Jhon Doe'); 
     console.log(antman);
     
     
