@@ -5,9 +5,13 @@
         age: 24,
         powers: ['Super velocidad', 'Viajar en el tiempo']
     };
-    let supeman = {
+    let superman = {
         name: 'Clark Kent Alen',
         age: 42,
-        powers: ['Super fuerza']
+        powers: ['Super fuerza'],
+        getName() {
+            return this.name;
+        }
     };
+    console.log({ superman });
 })();
