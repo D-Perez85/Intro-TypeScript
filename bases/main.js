@@ -15,6 +15,19 @@
     };
 })();
 (() => {
+    class Mutant {
+        constructor(age, name, realName) {
+            this.age = age;
+            this.name = name;
+            this.realName = realName;
+        }
+        mutantPower(id) {
+            return this.name + ' ' + this.realName;
+        }
+    }
+    let a = new Mutant(22, 'Logan', 'Relogan');
+})();
+(() => {
     const client = {
         name: 'Damian',
         age: 25,
@@ -50,7 +63,5 @@
             return this.address.city;
         }
     };
-    console.log(client);
-    console.log(client2);
 })();
 //# sourceMappingURL=main.js.map

@@ -65,7 +65,7 @@
         }
     }
 
-    console.log(client);
-    console.log(client2);
+    // console.log(client.getFullAddress('a'));
+    // console.log(client2.getFullAddress('a'));
 
 })()
