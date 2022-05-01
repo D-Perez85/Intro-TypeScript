@@ -1,73 +1,37 @@
 "use strict";
 (() => {
-    let flash = {
-        name: 'Barry Allen',
-        age: 24,
-        powers: [1, 2]
+    const conducirBatimovil = (auto) => {
+        auto.encender = true;
+        auto.velocidadMaxima = 100;
+        auto.acelerar();
     };
-    let superman = {
-        name: 'Clark Kent',
-        age: 60,
-        powers: [1],
-        getName() {
-            return this.name;
+    const batimovil = {
+        encender: false,
+        velocidadMaxima: 0,
+        acelerar() {
+            console.log("...... gogogo!!!");
         }
     };
-})();
-(() => {
-    class Mutant {
-        constructor(age, name, realName) {
-            this.age = age;
-            this.name = name;
-            this.realName = realName;
+    const guason = {
+        reir: true,
+        comer: true,
+        llorar: false
+    };
+    const reir = (guason) => {
+        if (guason.reir) {
+            console.log("JAJAJAJA");
         }
-        mutantPower(id) {
-            return this.name + ' ' + this.realName;
+    };
+    const ciudadGotica = (ciudadanos) => {
+        return ciudadanos.length;
+    };
+    class Persona {
+        constructor(name, age, sexo, estadoCivil) { }
+        imprimirBio() {
+            console.log(this.name + ' ' + this.sexo);
         }
     }
-    let a = new Mutant(22, 'Logan', 'Relogan');
-})();
-(() => {
-    const client = {
-        name: 'Damian',
-        age: 25,
-        address: {
-            id: 125,
-            zip: 'KY2 SUD',
-            city: 'Ottawa'
-        },
-        education: {
-            first: 'complete',
-            secondary: 'complete',
-            universitary: 'on course'
-        },
-        getFullAddress(id) {
-            return this.address.city;
-        }
-    };
-    const client2 = {
-        name: 'Melissa',
-        age: 30,
-        address: {
-            city: 'Toronto',
-            id: 120,
-            zip: 'K2S U2A'
-        },
-        accountData: {
-            id: 123456,
-            bank: 'BBVA',
-            location: 'Bs As',
-            office: 217
-        },
-        getFullAddress(id) {
-            return this.address.city;
-        }
-    };
-})();
-(() => {
-    let addNumbersFunction;
-    addNumbersFunction = (a, b) => {
-        return 10;
-    };
+    let a = new Persona('Juan', 22, 'alot', 'single');
+    console.log(a);
 })();
 //# sourceMappingURL=main.js.map

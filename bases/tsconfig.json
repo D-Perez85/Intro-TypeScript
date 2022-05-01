@@ -103,6 +103,6 @@
     "node_modules"
   ], 
   "include": [
-    "interfaces"
+    "app04.ts"
   ]
 }
