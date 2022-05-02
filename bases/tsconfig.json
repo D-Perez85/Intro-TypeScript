@@ -103,6 +103,5 @@
     "node_modules"
   ], 
   "include": [
-    "namespaces"
-  ]
+  "app04.ts"  ]
 }
