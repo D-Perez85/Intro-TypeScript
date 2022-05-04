@@ -42,15 +42,15 @@ import { genericFn, printObject, genericArrowFn } from '../generics/generic';
 import { Hero, Villain } from '../interfaces/index';
  
 
-// printObject(213); 
-// printObject('abc');
-// printObject(['a', 'b', 'c']);
-// printObject({a: 1, b: 2, c: 3}); 
+printObject(213); 
+printObject('abc');
+printObject(['a', 'b', 'c']);
+printObject({a: 1, b: 2, c: 3}); 
 
 
-// console.log(genericFn(23.1234).toFixed(2)); 
-// console.log(genericFn(new Date()).getDate()); 
-// console.log(genericArrowFn('Hola Mundo').toUpperCase());
+console.log(genericFn(23.1234).toFixed(2)); 
+console.log(genericFn(new Date()).getDate()); 
+console.log(genericArrowFn('Hola Mundo').toUpperCase());
 
 
 const superman = {
@@ -60,7 +60,9 @@ const superman = {
 }
 
 
+console.log(genericFn<Hero>(superman).name);
 console.log(genericFn<Villain>(superman).dangerLevel);
+
 
 
 
